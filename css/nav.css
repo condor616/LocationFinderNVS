@@ -1,0 +1,64 @@
+/*  *************************************************************
+novartis.com - stylesheet for main navigation 
+
+date: 2010/07
+author: Ingo von Kügelgen & Michael Raith, unitb technology GmbH
+
+***************************************************************** */
+
+/*
+ * ATTENTION
+ * 
+ * The sum of all menuitem values must equal 789 Pixel!
+ * 
+ */
+
+#mn_home {
+	width: 60px;
+	/* 62 */
+}
+
+#mn_products {
+	width: 80px;
+	/* 82 */
+}
+
+#mn_innovation {
+	width: 93px;
+	/* 95 */
+}
+
+#mn_corporate-responsibility {
+	width: 180px;
+	/* 166 */
+}
+
+#mn_about-novartis {
+	width: 120px;
+	/* 120 */
+}
+
+#mn_investors {
+	width: 84px;
+	/* 87 */
+}
+
+#mn_newsroom {
+	width: 92px;
+	/* 95 */
+}
+
+#mn_careers {
+	width: 80px;
+	/* 82 */
+}
+
+/* no separating dots on last link */
+#mainnav ul li:last-child > a { 
+	background-image: none;
+}
+#mainnav ul li#mn_careers a[class~="level01"] { 
+	background-image: none; /* for ie */
+} 
+
+/************************************************************************/
