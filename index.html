@@ -1,0 +1,114 @@
+<div id="location_finder_box" style="display:none">
+	<script src="/js/loc_finder/prototype.js" language="JavaScript" type="text/javascript"></script>
+	<script src="/js/loc_finder/swfobject.js" language="JavaScript" type="text/javascript"></script>
+	<script src="https://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAdaYURoXdGvzlGVACuTf_4BTstgVh6nC0GI9yc4pC0_ugAe-FBRSn158AnUD7HPe81m42pnvkvQgtvw" type="text/javascript"></script>
+	<script src="/js/loc_finder/markermanager.js" language="JavaScript" type="text/javascript"></script>
+	<script src="/js/loc_finder/countries.js" language="JavaScript" type="text/javascript"></script>
+	<script src="/about-novartis/locations/scripts/locations.js" language="JavaScript" type="text/javascript"></script>
+	<script src="/js/loc_finder/application.js" language="JavaScript" type="text/javascript"></script>
+	<div id="locFinder">
+		<hr class="divider"/><h2>Select a country</h2>
+		<!-- BEGIN country list -->
+		<div id="country-list">
+			<p>
+				<span class="country-list-letter firstLetter">A</span>
+				<span class="country-list-letter">B</span>
+				<span class="country-list-letter">C</span>
+				<span class="country-list-letter">D</span>
+				<span class="country-list-letter">E</span>
+				<span class="country-list-letter">F</span>
+				<span class="country-list-letter">G</span>
+				<span class="country-list-letter">H</span>
+				<span class="country-list-letter">I</span>
+				<span class="country-list-letter">J</span>
+				<span class="country-list-letter">K</span>
+				<span class="country-list-letter">L</span>
+				<span class="country-list-letter">M</span>
+				<span class="country-list-letter">N</span>
+				<span class="country-list-letter">O</span>
+				<span class="country-list-letter">P</span>
+				<span class="country-list-letter">Q</span>
+				<span class="country-list-letter">R</span>
+				<span class="country-list-letter">S</span>
+				<span class="country-list-letter">T</span>
+				<span class="country-list-letter">U</span>
+				<span class="country-list-letter">V</span>
+				<span class="country-list-letter">W</span>
+				<span class="country-list-letter">X</span>
+				<span class="country-list-letter">Y</span>
+				<span class="country-list-letter lastLetter">Z</span>
+			</p>
+		</div>
+		<!-- END country list --><!-- FLASH WORLDMAP WILL BE INSERTED HERE --><!-- BEGIN google map container -->
+		<div id="google-map-container" style="display: none"></div>
+		<!-- END google map container --><h2>Select a business</h2>
+		<!-- BEGIN bu filter container -->
+		<div class="bu-filter">
+			<div>
+				<table>
+					<tr>
+						<td id="bu-filter-all" class="bu-filter-value col1">
+							All
+						</td>
+						<td id="bu-filter-pharma" class="bu-filter-value col2">
+							Pharmaceuticals
+						</td>
+						<td id="bu-filter-sandoz" class="bu-filter-value col3">
+							Sandoz
+						</td>
+						<td id="bu-filter-vnd" class="bu-filter-value col4">
+							Vaccines &amp; Diagnostics
+						</td>
+						<td id="bu-filter-cv" class="bu-filter-value col5">
+							CIBA Vision
+						</td>
+					</tr>
+					<tr>
+						<td class="col1">
+						</td>
+						<td id="bu-filter-al" class="bu-filter-value col2">
+							Alcon
+						</td>
+						<td id="bu-filter-ch" class="bu-filter-value col3">
+							OTC
+						</td>
+						<td id="bu-filter-ah" class="bu-filter-value col4">
+							Animal Health
+						</td>
+						<td id="bu-filter-group" class="bu-filter-value col5">
+							Group
+						</td>
+					</tr>
+				</table>
+
+				<div id="back-to-world" style="display: none">
+					<p>
+						<a href="javascript:gApp.displayWorldmap();">Back to world map</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- END bu filter container -->
+		<!-- BEGIN google directions container -->
+		<div id="google-dir-container" style="display: none"></div>
+		<!-- END google map container -->
+		<div id="locations-container"></div>
+	</div>
+</div>
+
+<div id="noflash_location_finder" style="display: none;">
+<img width="575" height="325" src="/images/about-novartis/locations/worldwide-offices-fallback-kiss.png" alt="Please turn on your Javascript to use this application">
+</div>
+
+<noscript>
+<style type="text/css">
+#noflash_location_finder {
+	display: block !important;
+}
+</style>
+</noscript>
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        detectFlashShowLayer(8, $("#noflash_location_finder"), $("#location_finder_box")); // Flash Version, Container with no flash text, container with flashcontent
+    });    
+</script>
