@@ -1,6 +1,6 @@
 // global vars
 gApp = null;
-pathToSwf = '/flash/';
+pathToSwf = 'flash/';
 countryListLetterMouseOver = '#ffffff';
 countryListLetterBackgroundColor = '#e2e2e2';
 countryBackgroundColor = '#ffffff';
@@ -31,7 +31,7 @@ var NovLocations = Class.create({
 		}
 		// create container		
 		var div = new Element('div', {'id':'worldmap-container'}).setStyle('display: table-cell; vertical-align: middle;');
-		var lImg = new Element('img', {src:'/images/_common/icons/loading.gif', width:32, height:32, alt:'Loading ...'}).setStyle('display: block; margin: auto;');
+		var lImg = new Element('img', {src:'images/_common/icons/loading.gif', width:32, height:32, alt:'Loading ...'}).setStyle('display: block; margin: auto;');
 		if(Prototype.Browser.IE) {
 			lImg.setStyle('margin-top: 108px;');
 		}
@@ -59,6 +59,10 @@ var NovLocations = Class.create({
 			attributes.id = "worldmap";
 			// insert flash
 			swfobject.embedSWF(pathToSwf+"worldmap.swf?" + new Date().getTime(), "worldmap-container", "773", "273", "8.0.0", pathToSwf+"expressInstall.swf", flashvars, params, attributes);
+			
+			//insert SVG and NO FLASH
+			
+			
 		}.bind(this), delay);
 	},
 	

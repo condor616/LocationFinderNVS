@@ -4870,11 +4870,11 @@ div.dsel {
 }
 
 .bu-filter-value-not-selected {
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/img_checkbox.gif);	
+	background-image: url(../images/_common/buttons/img_checkbox.gif);	
 }
 
 .bu-filter-value-selected {	
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/img_checkbox_selected.gif);
+	background-image: url(../images/_common/buttons/img_checkbox_selected.gif);
 }
 
 .bu-filter-value-not-selected,
