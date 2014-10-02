@@ -9,6 +9,16 @@ countryMouseOverBackgroundColor = '#F0F0F0';
 Prototype.Browser.IE6 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 6;
 accordionToggleText = 'Expand all';
 
+function detectFlashShowLayer(version, layer, flashlayer) {
+	var playerVersion = swfobject.getFlashPlayerVersion(); // returns a JavaScript object
+	var majorVersion = playerVersion.major; // access the major, minor and release version numbers via their respective properties
+	
+	if (majorVersion < version) {
+		layer.show();
+	} else {
+		flashlayer.show();
+	}
+}
 
 
 // application class
