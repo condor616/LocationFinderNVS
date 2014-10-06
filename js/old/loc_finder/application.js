@@ -9,16 +9,6 @@ countryMouseOverBackgroundColor = '#F0F0F0';
 Prototype.Browser.IE6 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 6;
 accordionToggleText = 'Expand all';
 
-function detectFlashShowLayer(version, layer, flashlayer) {
-	var playerVersion = swfobject.getFlashPlayerVersion(); // returns a JavaScript object
-	var majorVersion = playerVersion.major; // access the major, minor and release version numbers via their respective properties
-	
-	if (majorVersion < version) {
-		layer.show();
-	} else {
-		flashlayer.show();
-	}
-}
 
 
 // application class
@@ -58,20 +48,18 @@ var NovLocations = Class.create({
 			// create flash object
 			var flashvars = {};
 			flashvars.jsActive = arrayToString(this.getCC3List()).toLowerCase();
-			var params = {};
-			params.menu = "false";
-			params.quality = "best";
-			params.scale = "noscale";
-			params.wmode = "transparent";
-			params.bgcolor = "#ffffff";
-			params.allowscriptaccess = "sameDomain";
-			var attributes = {};
-			attributes.id = "worldmap";
-			// insert flash
-			swfobject.embedSWF(pathToSwf+"worldmap.swf?" + new Date().getTime(), "worldmap-container", "773", "273", "8.0.0", pathToSwf+"expressInstall.swf", flashvars, params, attributes);
 			
 			//insert SVG and NO FLASH
-			
+			jQuery('#worldmap-container').after("<div id=\"worldmap\" style=\"width: 100%; height:450px; \"></div>");
+			jQuery('#worldmap-container').remove();
+			jQuery("#location_finder_box").show();
+			var settings = {
+				hook: "worldmap",
+				countryList: this.countries,
+				mapName: "WorldNVS",
+				activeCountriesCode: this.countries
+			};
+			jQuery('#worldmap').jqueryLocationFinderPlugin('init', settings ); //'#worldmap', this.countries, "WorldNVS"
 			
 		}.bind(this), delay);
 	},
@@ -201,7 +189,17 @@ var NovLocations = Class.create({
 			this.selectCountry(this.country.code);
 		}
 		else {
-			this.initFlashMap();
+			//this.initFlashMap();
+			var tmpSettings = {
+				hook: "worldmap",
+				countryList: this.countries,
+				mapName: "WorldNVS",
+				activeCountriesCode: this.countries
+			};
+			jQuery('#' + tmpSettings.hook).children().remove();
+			console.log("removed")
+			jQuery('#' + tmpSettings.hook ).jqueryLocationFinderPlugin('init', tmpSettings ); //'#worldmap', this.countries, "WorldNVS"
+			console.log("added");
 		}
 	},
 	
@@ -218,7 +216,7 @@ var NovLocations = Class.create({
 				this.countries.push(cc2);
 			}
 		}.bind(this));
-		this.updateWorldmapState();
+		
 	},
 	
 	getCC3List: function() {
@@ -230,6 +228,7 @@ var NovLocations = Class.create({
 				}
 			}.bind(this));
 		}
+		
 		return result;
 	},
 	
@@ -274,12 +273,6 @@ var NovLocations = Class.create({
 		this.country = null;
 	},
 	
-	updateWorldmapState: function() {
-		if(this.countries) {
-			//$('worldmap').flashSetState(false, null, true);
-			//$('worldmap').flashSetState(true, this.countries, false);
-		}
-	},
 	
 	selectCountry: function(cc) {
 		if(Prototype.Browser.IE) {
