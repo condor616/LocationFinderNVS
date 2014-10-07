@@ -10,7 +10,6 @@ Prototype.Browser.IE6 = Prototype.Browser.IE && parseInt(navigator.userAgent.sub
 accordionToggleText = 'Expand all';
 
 
-
 // application class
 var NovLocations = Class.create({
 	
@@ -53,6 +52,7 @@ var NovLocations = Class.create({
 			jQuery('#worldmap-container').after("<div id=\"worldmap\" style=\"width: 100%; height:450px; \"></div>");
 			jQuery('#worldmap-container').remove();
 			jQuery("#location_finder_box").show();
+			
 			var settings = {
 				hook: "worldmap",
 				countryList: this.countries,
@@ -60,6 +60,7 @@ var NovLocations = Class.create({
 				activeCountriesCode: this.countries,
 				showLabelOnHover: true,
 			};
+			
 			jQuery('#worldmap').jqueryLocationFinderPlugin('init', settings ); //'#worldmap', this.countries, "WorldNVS"
 			
 		}.bind(this), delay);
@@ -190,16 +191,19 @@ var NovLocations = Class.create({
 			this.selectCountry(this.country.code);
 		}
 		else {
-			//this.initFlashMap();
-			var tmpSettings = {
+			
+			var settings = {
 				hook: "worldmap",
 				countryList: this.countries,
 				mapName: "WorldNVS",
 				activeCountriesCode: this.countries,
+				showLabelOnHover: true,
+				
 			};
-			jQuery('#' + tmpSettings.hook).children().remove();
+			
+			jQuery('#' + settings.hook).children().remove();
 			//console.log("removed")
-			jQuery('#' + tmpSettings.hook ).jqueryLocationFinderPlugin('init', tmpSettings ); //'#worldmap', this.countries, "WorldNVS"
+			jQuery('#' + settings.hook ).jqueryLocationFinderPlugin('init', settings ); //'#worldmap', this.countries, "WorldNVS"
 			//console.log("added");
 		}
 	},
