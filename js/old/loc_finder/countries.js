@@ -245,6 +245,13 @@ function getCountry(cc) {
 	return country;
 }
 
+function get2DigitCode(cc){
+	var country = gCountries.find(function(val) {
+		return val.code2 == cc.toUpperCase();
+	});
+	return country;
+}
+
 function sortCountries() {
 	gCountries.sort(function(a, b) {
 		if(a.name == b.name) {

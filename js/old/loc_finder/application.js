@@ -57,7 +57,8 @@ var NovLocations = Class.create({
 				hook: "worldmap",
 				countryList: this.countries,
 				mapName: "WorldNVS",
-				activeCountriesCode: this.countries
+				activeCountriesCode: this.countries,
+				showLabelOnHover: true,
 			};
 			jQuery('#worldmap').jqueryLocationFinderPlugin('init', settings ); //'#worldmap', this.countries, "WorldNVS"
 			
@@ -194,12 +195,12 @@ var NovLocations = Class.create({
 				hook: "worldmap",
 				countryList: this.countries,
 				mapName: "WorldNVS",
-				activeCountriesCode: this.countries
+				activeCountriesCode: this.countries,
 			};
 			jQuery('#' + tmpSettings.hook).children().remove();
-			console.log("removed")
+			//console.log("removed")
 			jQuery('#' + tmpSettings.hook ).jqueryLocationFinderPlugin('init', tmpSettings ); //'#worldmap', this.countries, "WorldNVS"
-			console.log("added");
+			//console.log("added");
 		}
 	},
 	
@@ -237,6 +238,7 @@ var NovLocations = Class.create({
 		var fmap = $('worldmap');
 		if(fmap) {
 			fmap.show();
+			this.toggleFilter("all");
 		}
 		else {
 			this.initFlashMap();
@@ -282,7 +284,14 @@ var NovLocations = Class.create({
 		this.gmap.clearOverlays();
 	this.gmap.setCenter(new GLatLng(41, -98), 1); 
 	
-		this.country = getCountry(cc);
+		//if cc is made up of 2chars, then get the 3chars version
+		if (cc.length == 2){
+			this.country = get2DigitCode(cc);
+		}
+		else{
+			this.country = getCountry(cc);
+		}
+		
 		if(this.country) {
 			this.locations = [];
 			var cc2 = this.country.code2;
@@ -739,7 +748,7 @@ var NovLocations = Class.create({
 						}
 					}.bindAsEventListener(this));
 					var img = ce("img");
-					img.setAttribute("src", "/images/_common/buttons/go1.gif", 0);
+					img.setAttribute("src", "../images/_common/buttons/go1.gif", 0);
 					img.setAttribute("width", "25", 0);
 					img.setAttribute("height", "13", 0);
 					img.setAttribute("alt", "Go", 0);

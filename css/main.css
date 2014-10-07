@@ -109,13 +109,13 @@ button span,
 .btn-help {
 	width: 13px;
 	height: 13px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/help.gif) no-repeat 0 0;
+	background: url(../images/_common/icons/help.gif) no-repeat 0 0;
 }
 
 .btn-search {
 	width: 66px;
 	height: 17px;
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/search.png);
+	background-image: url(../images/_common/buttons/search.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	overflow: hidden;
@@ -129,7 +129,7 @@ button span,
 	width: 100%;
 	height: 1px;
 	border: 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x 0 0;
+	background: url(../images/_common/borders/divider.gif) repeat-x 0 0;
 	margin: 10px 0;
 	padding: 0;
 	overflow: hidden;
@@ -201,7 +201,7 @@ a.link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link {
 /*display: block;*/
 	padding-left: 20px;	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/link.gif) no-repeat 0 0;
+	background: url(../images/_common/icons/link.gif) no-repeat 0 0;
 }
 
 /* MRA 2010-12-15 */
@@ -219,7 +219,7 @@ a.link.pdf-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.pdf-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.pdf-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.pdf-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/pdf.gif) no-repeat 0 1px;	
+	background: url(../images/_common/icons/pdf.gif) no-repeat 0 1px;	
 }
 
 a.link.rss-link,
@@ -227,21 +227,21 @@ a.link.rss-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.rss-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.rss-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.rss-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/rss.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/rss.gif) no-repeat 0 1px;
 }
 a.link.zip-link,
 #sub .content .accordion li div.acc_sub .inner a.link.zip-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.zip-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.zip-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.zip {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/zip.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/zip.gif) no-repeat 0 1px;
 }
 a.link.doc-link,
 #sub .content .accordion li div.acc_sub .inner a.link.doc-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.doc-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.doc-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.doc-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/doc.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/doc.gif) no-repeat 0 1px;
 }
 
 /* new */
@@ -251,7 +251,7 @@ a.link.xls-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.xls-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.xls-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.xls-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/xls.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/xls.gif) no-repeat 0 1px;
 }
 
 a.arrow-link-external, /* mst - 20110112: revoked class chaining */
@@ -259,7 +259,7 @@ a.arrow-link-external, /* mst - 20110112: revoked class chaining */
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.arrow-link-external,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-external,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-external {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/external-link.gif) no-repeat 0 2px;
+	background: url(../images/_common/icons/external-link.gif) no-repeat 0 2px;
 }
 
 a.link.arrow-link-internal,
@@ -267,7 +267,7 @@ a.link.arrow-link-internal,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.arrow-link-internal,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-internal,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-internal {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/link.gif) no-repeat 0 0;
+	background: url(../images/_common/icons/link.gif) no-repeat 0 0;
 }
 
 a.link.image-link,
@@ -275,7 +275,7 @@ a.link.image-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.image.link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.image-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.image-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/image.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/image.gif) no-repeat 0 1px;
 }
 
 a.link.podcast-link,
@@ -283,7 +283,7 @@ a.link.podcast-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.podcast-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.podcast-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.podcast-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/podcast.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/podcast.gif) no-repeat 0 1px;
 }
 
 a.link.video-link,
@@ -291,7 +291,7 @@ a.link.video-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.video-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.video-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.video-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/video.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/video.gif) no-repeat 0 1px;
 }
 
 a.link.email-link,
@@ -299,11 +299,11 @@ a.link.email-link,
 #sub_no_left .content .accordion li div.acc_sub .inner a.link.pdf.link.email-link,
 #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.email-link,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.email-link {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/email.gif) no-repeat 0 1px;
+	background: url(../images/_common/icons/email.gif) no-repeat 0 1px;
 }
 
 a.link.to_top {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/top_link.gif) no-repeat 0px 2px;
+	background: url(../images/_common/icons/top_link.gif) no-repeat 0px 2px;
 }
 
 .toplink {
@@ -319,13 +319,13 @@ a.link.to_top {
 
 a.link.close {
 	padding: 0 20px 0 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/close.png) no-repeat 100% 1px;			
+	background: url(../images/_common/icons/close.png) no-repeat 100% 1px;			
 	display:block; 
 	width:28px;
 }
 a.link.close:hover {
 	text-decoration:none !important;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/close.png) no-repeat 100% -18px;	
+	background: url(../images/_common/icons/close.png) no-repeat 100% -18px;	
 }
 
 
@@ -344,7 +344,7 @@ a.external {
 
 a.share-link {
 	padding-left: 20px;
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/socialmedia.png);
+	background-image: url(../images/_common/icons/socialmedia.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
     display: block;
@@ -658,7 +658,7 @@ button.go {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/go.gif) no-repeat 0 0;
+	background: url(../images/_common/buttons/go.gif) no-repeat 0 0;
 	cursor: pointer;
 	margin-top: 3px;
 }
@@ -680,7 +680,7 @@ ul.text-list {
 
 ul.text-list li {
 	padding: 10px 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;	
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;	
 }
 
 /* added ivk 2010-11-09 */
@@ -880,7 +880,7 @@ div.last {
 	height: auto;
 	border-left: 1px solid #d7d7d7;
 	border-right: 1px solid #d7d7d7;
-	background: #e0e0e0 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/util-nav/bottom.png) repeat-x 0 100%;
+	background: #e0e0e0 url(../images/_common/borders/util-nav/bottom.png) repeat-x 0 100%;
 	z-index: 4;
 }
 
@@ -925,7 +925,7 @@ div.last {
 
 #util-nav ul.size-switch {
 	padding-right: 11px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/util-nav/dotted.gif) no-repeat right 1px;
+	background: url(../images/_common/borders/util-nav/dotted.gif) no-repeat right 1px;
 }
 
 #util-nav ul.lang-switch {
@@ -941,7 +941,7 @@ div.last {
 }
 
 #util-nav ul.tabs li {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/util-nav/dotted.gif) no-repeat right 1px;
+	background: url(../images/_common/borders/util-nav/dotted.gif) no-repeat right 1px;
 }
 
 #util-nav ul li.last {
@@ -978,17 +978,17 @@ div.last {
 
 /* ToDo Sprites */
 #util-nav ul.tabs li a span.arrow-button {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav-arrow-grey-right.png) no-repeat 0 4px;
+	background: url(../images/_common/icons/utilnav-arrow-grey-right.png) no-repeat 0 4px;
 	padding-left: 11px;	
 }
 
 #util-nav ul.tabs li a:hover span.arrow-button {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav-arrow-brown-down.png) no-repeat 0 4px;
+	background: url(../images/_common/icons/utilnav-arrow-brown-down.png) no-repeat 0 4px;
 	padding-left: 11px;
 }
 
 #util-nav ul.tabs li a.current span.arrow-button  {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav-arrow-brown-down.png) no-repeat 0 4px;
+	background: url(../images/_common/icons/utilnav-arrow-brown-down.png) no-repeat 0 4px;
 	padding-left: 11px;
 }
 
@@ -1034,7 +1034,7 @@ div.last {
 	display: block;
 	height: 9px;
 	margin: 4px 5px 0 0; 
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/size-switch.png);
+	background-image: url(../images/_common/icons/size-switch.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -1113,7 +1113,7 @@ div.last {
 	height: 310px;
 	border-left: 1px solid #e9e9e9;
 	border-right: 1px solid #e9e9e9;
-	background: #f3f3f3 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/util-nav/bottom.png) repeat-x 0 100%;
+	background: #f3f3f3 url(../images/_common/borders/util-nav/bottom.png) repeat-x 0 100%;
 	padding-bottom: 20px;
 }
 
@@ -1161,7 +1161,7 @@ div.last {
 	padding: 0;
 	border-left: 1px solid #d7d7d7;
 	border-right: 1px solid #d7d7d7;
-	background: #f3f3f3 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/util-nav/bottom.png) repeat-x 0 100%;
+	background: #f3f3f3 url(../images/_common/borders/util-nav/bottom.png) repeat-x 0 100%;
 	z-index: 3;
 }
 
@@ -1172,7 +1172,7 @@ div.last {
 	width: 100%;	
 	height: 16px;
 	border-top: 2px solid #c3c3c3;
-	background: #fff url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/slider1.gif) no-repeat 460px -16px;
+	background: #fff url(../images/_common/buttons/slider1.gif) no-repeat 460px -16px;
 }
 
 #util-nav div.panes .slide-up {	
@@ -1182,7 +1182,7 @@ div.last {
 	width: 51px;	
 	height: 16px;	
 	margin-left: 460px;	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/slider1.gif) no-repeat;	
+	background: url(../images/_common/buttons/slider1.gif) no-repeat;	
 	background-position: 0 0px;
 }
 
@@ -1256,7 +1256,7 @@ div.last {
 
 #util-nav .pane1 li,
 #util-nav .pane2 li {	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/util-nav/lists.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/util-nav/lists.gif) repeat-x bottom left;
 }
 
 
@@ -1280,7 +1280,7 @@ div.last {
 /* Flags */
 
 #util-nav .pane1 .country a {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/flags/flags.gif) no-repeat -500px -500px;
+	background: url(../images/_common/icons/flags/flags.gif) no-repeat -500px -500px;
 	padding-left: 27px;
 	display: block;
 	width: auto;
@@ -1411,7 +1411,7 @@ div.last {
 
 #util-nav .pane-content .link-list a {
 	padding-left: 10px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrow1.gif) no-repeat 0 7px;	
+	background: url(../images/_common/icons/arrow1.gif) no-repeat 0 7px;	
 }
 
 /* pane2 */
@@ -1475,16 +1475,16 @@ line-height: 1.4;
 }
 
 #util-nav .pane3 span.phone {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav.png) no-repeat -54px 0;
+	background: url(../images/_common/icons/utilnav.png) no-repeat -54px 0;
 }
 
 #util-nav .pane3 span.fax {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav.png) no-repeat -38px -17px;
+	background: url(../images/_common/icons/utilnav.png) no-repeat -38px -17px;
 
 }
 
 #util-nav .pane3 span.time {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav.png) no-repeat -20px -33px;
+	background: url(../images/_common/icons/utilnav.png) no-repeat -20px -33px;
 }
 
 #util-nav .pane3 a.email {
@@ -1492,7 +1492,7 @@ line-height: 1.4;
 	overflow: hidden;
 	padding-left: 22px;	
 	width: auto;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/utilnav.png) no-repeat 0 -54px;
+	background: url(../images/_common/icons/utilnav.png) no-repeat 0 -54px;
 	color: #333;	/*color: #e44c16;*/
 }
 
@@ -1529,13 +1529,13 @@ line-height: 1.4;
 
 #util-nav .var2  ul.tabs li a span.arrow-button
 {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrow-right2.gif) no-repeat;
+	background: url(../images/_common/icons/arrow-right2.gif) no-repeat;
 	background-position: left 2px;	
 	padding-left: 12px;
 }
 
 #util-nav .var2 ul.tabs li a:hover span.arrow-button  {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrow-right-hover.gif) no-repeat;
+	background: url(../images/_common/icons/arrow-right-hover.gif) no-repeat;
 	background-position: left 4px;	
 	padding-left: 12px;
 }
@@ -1544,7 +1544,7 @@ line-height: 1.4;
 
 #util-nav .var2 ul.tabs li a.current span.arrow-button,
 #util-nav .var2 ul.tabs li a.current:hover span.arrow-button {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrow-right-active.gif) no-repeat;
+	background: url(../images/_common/icons/arrow-right-active.gif) no-repeat;
 	background-position: left 4px;	
 	padding-left: 12px;
 }
@@ -1611,7 +1611,7 @@ line-height: 1.4;
 	border-top: 1px solid #e1e1e1;
     text-decoration:none; 
     color: #923222;	 
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/main-nav/dotted.gif);	
+	background-image: url(../images/_common/borders/main-nav/dotted.gif);	
 	background-repeat: no-repeat;
 	background-position: top right;
     font-size: 12px;
@@ -1653,7 +1653,7 @@ line-height: 1.4;
 
 #mainnav ul li:hover a {  
 	background-color: #f0f0f0 ;
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/main-nav/dotted.gif);
+	background-image: url(../images/_common/borders/main-nav/dotted.gif);
 	background-repeat: no-repeat;
 	background-position:  top right;
 	height: 27px;
@@ -1705,7 +1705,7 @@ line-height: 1.4;
 	border-top: none;	
 	border-bottom: none;
 	background-color: #fff;
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/main-nav/dropdown.gif);
+	background-image: url(../images/_common/borders/main-nav/dropdown.gif);
 	background-repeat: no-repeat;
 	background-position: 10px bottom;
 	font-size: 13px;
@@ -1736,7 +1736,7 @@ line-height: 1.4;
 	height: 39px;
 	border-bottom: 3px solid #fbae17;
 	z-index: 5;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/bg/search.gif) no-repeat 0 0;
+	background: url(../images/_common/bg/search.gif) no-repeat 0 0;
 }
 
 #search input {
@@ -1761,7 +1761,7 @@ button.search {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/search.gif) no-repeat 0 0;	
+	background: url(../images/_common/buttons/search.gif) no-repeat 0 0;	
 }
 
 button.search:active {
@@ -1815,18 +1815,18 @@ position: relative;
 }
 
 .content .functions ul li a.share {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/functions.png) no-repeat 0 0;
+	background: url(../images/_common/icons/functions.png) no-repeat 0 0;
 }
 
 .content .functions ul li a.print {
 	display: none;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/functions.png) no-repeat 0 -18px;
+	background: url(../images/_common/icons/functions.png) no-repeat 0 -18px;
 }
 
 
 .content .functions ul li a.pdf {
 	display: none;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/functions.png) no-repeat 0 -38px;
+	background: url(../images/_common/icons/functions.png) no-repeat 0 -38px;
 }
 
 
@@ -2106,19 +2106,19 @@ h6 {
 
 #home a.up {	
 	/*margin-top: -18px;*/
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/slider1.gif) no-repeat;	
+	background: url(../images/_common/buttons/slider1.gif) no-repeat;	
 	background-position: 50% -15px;
 	border-top: 1px solid #e5e5e5;
 }
 
 #home a.down{
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/slider1.gif) no-repeat;	
+	background: url(../images/_common/buttons/slider1.gif) no-repeat;	
 	background-position: 50% 0;
 	border-bottom: 1px solid #e5e5e5;
 }
 
 #home .button-up a.disabled {	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/slider1_disabled.gif) no-repeat;
+	background: url(../images/_common/buttons/slider1_disabled.gif) no-repeat;
 	/*margin-top: -18px;	*/	
 	background-position: 50% -15px;
 	border-top: 1px solid #e5e5e5;
@@ -2126,7 +2126,7 @@ h6 {
 }
 
 #home .button-down a.disabled {	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/slider1_disabled.gif) no-repeat;
+	background: url(../images/_common/buttons/slider1_disabled.gif) no-repeat;
 	background-position: 50% 0;
 	border-bottom: 1px solid #e5e5e5;
 	cursor: default;
@@ -2159,7 +2159,7 @@ h6 {
 .stock-chart .date {
 	margin-bottom: 10px;	
 	padding-bottom: 12px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;
 	color: #333333;	
 }
 
@@ -2361,7 +2361,7 @@ padding:2px 0;
 #landing .content p.link-wrapper {	
 	clear: both;
 	padding-top: 6px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/widgets/divider.gif) repeat-x 0 0;	
+	background: url(../images/_common/borders/widgets/divider.gif) repeat-x 0 0;	
 	margin-bottom: 0;
 	margin-left: 0;	
 	text-indent: 0;
@@ -2423,28 +2423,28 @@ padding:2px 0;
 }
 
 .videos {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/widgets.png) no-repeat -90px -14px;
+	background: url(../images/_common/icons/widgets.png) no-repeat -90px -14px;
 }
 
 .pdfs {
-		background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/widgets.png) no-repeat -69px -30px;
+		background: url(../images/_common/icons/widgets.png) no-repeat -69px -30px;
 }
 
 .photos {
-		background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/widgets.png) no-repeat -46px -46px;
+		background: url(../images/_common/icons/widgets.png) no-repeat -46px -46px;
 }
 
 .audio {
-		background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/widgets.png) no-repeat -24px -64px;
+		background: url(../images/_common/icons/widgets.png) no-repeat -24px -64px;
 }
 
 .archiv {
-		background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/widgets.png) no-repeat -2px -83px;
+		background: url(../images/_common/icons/widgets.png) no-repeat -2px -83px;
 }
 
 .calendar-icon {
 		float: right;
-		background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/widgets.png) no-repeat 0 0px;		
+		background: url(../images/_common/icons/widgets.png) no-repeat 0 0px;		
 }
 
 /* MRA 20110316 */
@@ -2578,7 +2578,7 @@ ul.img-left, ul.img-right {
 #sub_no_left .content .accordion li div.acc_sub .inner  .borderBottom {
 	margin-bottom: 10px;
 	padding-bottom: 1px;	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;
 }
 
 #sub .content .borderBottomNoSpace,
@@ -2593,7 +2593,7 @@ ul.img-left, ul.img-right {
 #sub .content .accordion li div.acc_sub .inner .borderBottomLine,
 #sub_no_left .content .accordion li div.acc_sub .inner  .borderBottomLine {
 	height: 11px;	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x top left;
+	background: url(../images/_common/borders/divider.gif) repeat-x top left;
     overflow:hidden;
 }
 
@@ -2655,7 +2655,7 @@ ul.img-left, ul.img-right {
 #sub .left-column ul li ul li {
 	width: 169px;
 	border-bottom: 0 none;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x 0 0;
+	background: url(../images/_common/borders/divider.gif) repeat-x 0 0;
 }
 
 #sub .left-column ul li a,
@@ -2688,7 +2688,7 @@ ul.img-left, ul.img-right {
 	font-weight: bold;
 	color: #923222;
 	/* background: url(../images/_common/icons/arrows/subnav-active.png) no-repeat 0 12px; */
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/subnav-active.png) no-repeat 0 13px;
+	background: url(../images/_common/icons/arrows/subnav-active.png) no-repeat 0 13px;
 }
 
 #sub .left-column ul li.active ul li a {
@@ -2702,7 +2702,7 @@ ul.img-left, ul.img-right {
 #sub .left-column ul li.active ul {
 	display: inline;
 	margin: 2px 0 0 10px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x 0 0;
+	background: url(../images/_common/borders/divider.gif) repeat-x 0 0;
 }
 
 #sub .left-column ul li.active ul ul {
@@ -2713,7 +2713,7 @@ ul.img-left, ul.img-right {
 #sub .left-column ul li.active ul li.active ul {
 	margin-left: 0;
 	padding-bottom: 8px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x 0 0;
+	background: url(../images/_common/borders/divider.gif) repeat-x 0 0;
 }
 
 #sub .left-column ul li.active ul li.active {
@@ -2730,7 +2730,7 @@ ul.img-left, ul.img-right {
 /* new */
 #sub .left-column ul li.active ul li.active a,
 #sub .left-column ul li.active ul li.active a:hover {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/subnav-active.png) no-repeat 0 14px;
+	background: url(../images/_common/icons/arrows/subnav-active.png) no-repeat 0 14px;
 }
 /* new */
 
@@ -2741,7 +2741,7 @@ ul.img-left, ul.img-right {
 #sub .left-column ul li.active ul li.active ul li.active a,
 #sub .left-column ul li.active ul li.active ul li.active a:hover {
 	padding-left: 21px;
-    background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/subnav-active.png) no-repeat 11px 12px; 
+    background: url(../images/_common/icons/arrows/subnav-active.png) no-repeat 11px 12px; 
 }
 
 #sub .left-column ul li ul li a {
@@ -2760,7 +2760,7 @@ ul.img-left, ul.img-right {
 
 #sub .left-column ul li ul li a:hover,
 #sub .left-column ul li.active ul li a:hover {
-	background: #f0f0f0 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x top left;
+	background: #f0f0f0 url(../images/_common/borders/divider.gif) repeat-x top left;
 }
 
 #sub .left-column ul li ul li ul li a:hover,
@@ -2865,7 +2865,7 @@ ul.img-left, ul.img-right {
 .callout-small ul,
 .callout-wide ul,
 .callout-fullwidth ul {	
-	list-style-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/list.gif);	
+	list-style-image: url(../images/_common/icons/list.gif);	
 	margin-left: 19px; 
 	margin-bottom: 10px; /* MRA 2011-01-04 */
 }
@@ -2950,7 +2950,7 @@ ol.ordered-list ol li {
 }
 
 .content  a.glossary {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/glossary.gif) repeat-x bottom left  !important;
+	background: url(../images/_common/borders/glossary.gif) repeat-x bottom left  !important;
 	color: #333 !important;
 }
     .content  a.glossary:hover, .content  a.glossary:active  {
@@ -3014,7 +3014,7 @@ ol.ordered-list ol li {
 	padding-left: 16px;	
 	color: #e44c16;
 	/*background: url(../images/_common/icons/arrows/accordion-open.gif) no-repeat 0 8px;*/	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/acc.gif) 3px -77px no-repeat;
+	background: url(../images/_common/icons/arrows/acc.gif) 3px -77px no-repeat;
 }
 
 .accordion_toggle a:hover {
@@ -3023,7 +3023,7 @@ ol.ordered-list ol li {
 
 .accordion_toggle a.close_all {
 	/*background: url(../images/_common/icons/arrows/accordion.gif) no-repeat 3px 5px;*/	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/acc.gif) 3px -5px no-repeat;
+	background: url(../images/_common/icons/arrows/acc.gif) 3px -5px no-repeat;
 }
 
 .accordion {
@@ -3057,8 +3057,8 @@ ol.ordered-list ol li {
 	text-decoration: none;
 	color: #e44c16;	
 	cursor: pointer;
-	background: #f7f3e8 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/accordion.gif) 8px 11px no-repeat;
-	background: #f7f3e8 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/acc.gif) 8px 0px no-repeat;
+	background: #f7f3e8 url(../images/_common/icons/arrows/accordion.gif) 8px 11px no-repeat;
+	background: #f7f3e8 url(../images/_common/icons/arrows/acc.gif) 8px 0px no-repeat;
 	outline: none;
 }
 
@@ -3082,7 +3082,7 @@ ol.ordered-list ol li {
 .accordion li.active a.highlight, 
 .accordion a.highlight {
 	background: #f7f3e8 url('file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/images/_common/icons/arrows/accordion-open.gif') 6px 13px no-repeat;
-	background: #f7f3e8 url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/acc.gif) 8px -71px no-repeat;
+	background: #f7f3e8 url(../images/_common/icons/arrows/acc.gif) 8px -71px no-repeat;
 	border-left: 1px solid #f7f3e8;
 	border-right: 1px solid #f7f3e8;
 }
@@ -3155,14 +3155,14 @@ ol.ordered-list ol li {
 .faq-table tbody th {
 	border-bottom: none;
 	padding: 5px 0 9px 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;
 	color: #6d5037;
 	text-align: left;
 }
 
 .faq-table td {
 	padding: 5px 0 9px 0;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;
 }
 
 .faq-table th.figures {
@@ -3187,7 +3187,7 @@ ol.ordered-list ol li {
 
 ul.img-left li,
 ul.img-right li {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;
 	padding-top: 10px;
 	padding-bottom: 2px;
 	overflow: hidden;
@@ -3265,7 +3265,7 @@ ul.img-left li .text-container ul li {
 
 #sub .content .accordion li div.acc_sub .inner .text-container ul,
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul {
-	list-style-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/list.gif);
+	list-style-image: url(../images/_common/icons/list.gif);
 	margin: 20px 0 0 13px;	
 }
 
@@ -3292,7 +3292,7 @@ ul.img-left li .text-container ul li {
 #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a{
 	display: inline;
 	padding-left: 20px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/external-link.gif) no-repeat 0 2px;
+	background: url(../images/_common/icons/external-link.gif) no-repeat 0 2px;
 	font-weight: normal;
 }
 
@@ -3312,7 +3312,7 @@ ul.img-left li .text-container ul li {
 #sub .content .pane-content .img-right ul,
 #sub_no_left .content .pane-content .img-left ul,
 #sub_no_left .content .pane-content .img-right ul  {
-	list-style-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/list.gif);
+	list-style-image: url(../images/_common/icons/list.gif);
 	margin-left: 13px;	
 }
 
@@ -3419,7 +3419,7 @@ ul.img-left li .text-container ul li {
 .callout-wide,
 .callout-fullwidth {
 	padding-bottom: 10px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/callout.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/callout.gif) repeat-x bottom left;
 	/*font-size: 0.857em;*/
 	
 	font-size: 0.923em; /* MRA 13.12.2010 */
@@ -3466,7 +3466,7 @@ ul.img-left li .text-container ul li {
 	margin-bottom: 0;
 	font-size: 1.416em;
 	font-weight: normal;	
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/callout.gif) repeat-x top left;	
+	background: url(../images/_common/borders/callout.gif) repeat-x top left;	
 }
 
 .content .callout-small .borderTop,
@@ -3474,7 +3474,7 @@ ul.img-left li .text-container ul li {
 .content .callout-fullwidth .borderTop {
 	width: 100%;
     height:13px;    
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/callout.gif) repeat-x top left;	
+	background: url(../images/_common/borders/callout.gif) repeat-x top left;	
 }
 
 /* added IVK */
@@ -3664,7 +3664,7 @@ ul.img-left li .text-container ul li {
 	overflow: hidden;
 	margin: 10px 7px 10px 7px;
 	padding-bottom: 10px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x bottom left;
+	background: url(../images/_common/borders/divider.gif) repeat-x bottom left;
 	
 	width: 100%;
 }
@@ -3926,19 +3926,19 @@ ul.img-left li .text-container ul li {
 }
 
 .registration fieldset button.reset {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/form.png) no-repeat 0 0px;
+	background: url(../images/_common/buttons/form.png) no-repeat 0 0px;
 }
 
 .registration fieldset button.reset:active {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/form.png) no-repeat 0 -19px;
+	background: url(../images/_common/buttons/form.png) no-repeat 0 -19px;
 }
 
 .registration fieldset button.send {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/form.png) no-repeat 0 -37px;
+	background: url(../images/_common/buttons/form.png) no-repeat 0 -37px;
 }
 
 .registration fieldset button.send:active {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/buttons/form.png) no-repeat 0 -56px;
+	background: url(../images/_common/buttons/form.png) no-repeat 0 -56px;
 }
 
 
@@ -4176,7 +4176,7 @@ ul.img-left li .text-container ul li {
 
 #search-container .search-result-item {
 	display: block;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/divider.gif) repeat-x 0 bottom;
+	background: url(../images/_common/borders/divider.gif) repeat-x 0 bottom;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
@@ -5013,7 +5013,7 @@ div.accordion_box {
 #footer .four-cols,
 #footer .five-cols,
 #footer .six-cols {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/borders/footer/dotted.gif) repeat-y top right;
+	background: url(../images/_common/borders/footer/dotted.gif) repeat-y top right;
 }
 
 #footer div.first .inner {
@@ -5072,7 +5072,7 @@ div.accordion_box {
 	padding-left: 10px;
 	color: #666;
 	/*text-decoration: underline;	*/
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrow1.gif) no-repeat 0 4px;	
+	background: url(../images/_common/icons/arrow1.gif) no-repeat 0 4px;	
 }
 
 #footer .legal-notice a:hover {
@@ -5088,12 +5088,12 @@ div.accordion_box {
 #footer ul.rss li a {
 	/*display: block;*/
 	padding-left: 20px;
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/rss.gif) no-repeat 0 0;
+	background: url(../images/_common/icons/rss.gif) no-repeat 0 0;
 	color: #666;
 }
 
 #footer ul.rss li.email a {
-	background: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/email.gif) no-repeat 0 0;
+	background: url(../images/_common/icons/email.gif) no-repeat 0 0;
 }
 	
 #world_map {
@@ -5103,7 +5103,7 @@ div.accordion_box {
 	margin-bottom: 10px;
 	overflow: hidden;
 	background-color: #b4b4b4;
-	background-image: url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_dev/footer/world.png);
+	background-image: url(../images/_dev/footer/world.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -5205,7 +5205,7 @@ div.accordion_box {
     font-weight:bold;
     padding:2px 5px 2px 15px;
     
-    background-image:url(file:///C|/Users/angilma1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/_common/icons/arrows/arrow_white.gif);
+    background-image:url(../images/_common/icons/arrows/arrow_white.gif);
     background-repeat:no-repeat;
     background-position:98% 50%;
     border-top:2px solid #FFFFFF;

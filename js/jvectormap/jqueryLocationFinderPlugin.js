@@ -8,7 +8,8 @@
 				hook: "#worldmap",
 				countryList: "",
 				mapName: "WorldNVS",
-				activeCountriesCode: ""
+				activeCountriesCode: "",
+				showLabelOnHover: false,
 			}
 			
 			if (settings) $.extend(_defaultSettings, settings);
@@ -83,18 +84,24 @@
         	},
 			
 			onRegionLabelShow: function(e, el, code){
-				e.preventDefault();
-   				return false;
+				if (_defaultSettings.showLabelOnHover){
+					if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+						e.preventDefault();	
+					} 		
+				}
+				else{	
+   					return false;
+				}
   		    },
 			 
 			onRegionClick: function(e,code){ 
-				/*		
-				var map = $('#vectormap').vectorMap('get', 'mapObject');
-			
-				if ($.inArray(code, _defaultSettings.activeCountriesCode) > 0){
-				
+				if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+					//NOT FOUND
+					e.preventDefault();
 				}
-				*/
+				else{
+					gApp.selectCountry(code);
+				}
 			},
 			
     	});
@@ -115,14 +122,3 @@ $.fn.jqueryLocationFinderPlugin = function(method){
 
 
 })(jQuery);
-
-
-// --------------------------------------------------------------------------------------------------------
-
-
-
-/*
-var fillData = jQuery.extend({}, JScountries);
-$(function(){				
-});
-*/
