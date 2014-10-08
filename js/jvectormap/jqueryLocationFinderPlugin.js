@@ -60,7 +60,6 @@
 					"stroke-width": 0.5
 				},
 				
-				
 				hover: {
 					fill: "#f9c16c",
 					stroke: "#9c8673",
@@ -73,6 +72,7 @@
 				if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
 					//NOT FOUND
 					e.preventDefault();
+					return;
 				}
 				else{
 					document.body.style.cursor = 'pointer';
@@ -87,6 +87,7 @@
 				if (_defaultSettings.showLabelOnHover){
 					if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
 						e.preventDefault();	
+						return;
 					} 		
 				}
 				else{	
@@ -98,6 +99,7 @@
 				if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
 					//NOT FOUND
 					e.preventDefault();
+					return ;
 				}
 				else{
 					gApp.selectCountry(code);
