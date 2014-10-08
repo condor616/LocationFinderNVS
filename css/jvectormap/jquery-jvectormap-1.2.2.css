@@ -12,6 +12,7 @@
     padding: 3px;
 }
 
+/*
 .jvectormap-zoomin, .jvectormap-zoomout {
     position: absolute;
     left: 10px;
@@ -27,7 +28,9 @@
     line-height: 10px;
     text-align: center;
 }
+*/
 
+/*
 .jvectormap-zoomin {
     top: 10px;
 }
@@ -35,3 +38,4 @@
 .jvectormap-zoomout {
     top: 30px;
 }
+*/
