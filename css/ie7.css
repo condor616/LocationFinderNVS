@@ -1,0 +1,244 @@
+/*  *************************************************************
+novartis.com - patches for Internet Explorer 7
+
+date: 2010/07
+author: Ingo von Kügelgen & Michael Raith, unitb technology GmbH
+
+***************************************************************** */
+
+/*
+ =========================================================
+ Common
+*/
+
+
+.content h2 {
+	position: relative;
+}
+
+select {
+	float: left;
+}
+
+a.link.arrow-link-external,
+#sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-external,
+#sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-external {
+	background: url(../images/_common/icons/external-link.gif) no-repeat 1px 2px;
+}
+
+a.link.arrow-link-internal,
+#sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-internal,
+#sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-internal {
+	background: url(../images/_common/icons/link.gif) no-repeat 1px 0;
+}
+
+/* tabs 
+***********/	
+	
+ul.tabs li a.current {		
+	position: relative;	
+}
+
+/*
+ =========================================================
+ Utility Navigation
+*/
+
+/* pane content */
+
+#util-nav .pane2 .two-cols .inner{
+	position: static;
+	
+}
+
+#util-nav .pane2 .link-wrapper {
+	position: absolute;
+	bottom: 35px;	
+}
+
+
+/*
+ =========================================================
+ Header
+
+
+/* Search
+************** */
+
+#search input {
+	float: left;
+	height: 33px;		
+	line-height: 33px;
+	width: 134px;
+	
+	padding: 0;
+	padding-left: 5px;
+}
+
+
+/*
+ =========================================================
+ Container
+*/
+
+
+
+
+/* Content */
+
+/*.content {
+	overflow: hidden;
+}
+
+/* Home page
+************** */
+
+/* stock chart */
+
+.stock-chart ul.tabs li a.current {
+	position: relative;
+}
+
+
+
+
+/* Landing page
+************** */
+
+#landing .content .box h2 a {	
+	display: block;
+	width: 100%;
+	height: auto;	
+}
+
+
+
+/* Sub page 
+************** */
+
+/*
+#sub .left-column ul li {
+	display: inline;
+}
+
+#sub .left-column ul li ul  {
+	width: 158px;
+	zoom: 1;
+}
+*/
+
+
+
+
+
+ul.img-left li, ul.img-right li {
+	zoom: 1;
+}
+
+
+ul.img-left .text-container {
+	zoom: 1;
+}
+
+#sub .content .accordion { height:1% }
+
+#sub .content .accordion li.acc { width:100%;}
+
+#sub .content .accordion li div.acc_sub .inner {
+	
+}
+
+#sub .content .accordion_box {
+	overflow: hidden;
+}
+
+#sub .content .accordion li div.acc_sub .inner .text-container ul {
+	margin-left: 16px;
+}
+
+#sub .content .accordion li div.acc_sub .inner .text-container ul li {
+	zoom: -1;
+}
+
+ol.ordered-list {
+	margin-left: 35px;
+}
+
+ol.ordered-list ol li {
+	margin-left: 23px;
+}
+
+	
+
+/* Registration form */
+
+.registration fieldset legend {	
+	margin-left: 3px;
+}
+
+/*.registration fieldset legend span{		
+	top: 10px;
+}*/
+
+.registration fieldset p {
+	margin-left: 0;
+	padding-left: 200px;
+}
+
+.registration fieldset input.checkbox,
+.registration fieldset input.radio {
+	width: 20px;
+	margin-top: 0;
+}
+
+.registration fieldset input.checkbox {
+	margin-top: -4px;
+}
+
+.registration fieldset input.radio,
+.registration fieldset label.label-radio {	
+	float: left;
+	position: relative;	
+	margin-left: 0;
+}
+
+.registration fieldset p.radio-buttons {
+	margin-left: 0;
+	
+}
+
+.registration fieldset label.label-checkbox {	
+	top: -10px;
+	left: 6px;
+}
+
+.registration fieldset label.label-radio {	
+	top: 1px;
+	left: 6px;
+}
+
+.registration fieldset button.send {
+	margin-top: -1px;
+}
+
+
+
+
+#fancybox-inner,
+#fancybox-frame,
+#layerbox ,
+#layerBox .container,
+#layerBox .innerBox {
+	overflow: hidden;
+}
+
+#layerBox .innerBox {
+	min-height: 200px; /* mst */	
+	overflow: hidden;
+}
+
+
+.faq-table {
+	width: 100%;
+}
+

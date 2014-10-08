@@ -9,7 +9,7 @@
 				countryList: "",
 				mapName: "WorldNVS",
 				activeCountriesCode: "",
-				showLabelOnHover: false,
+				showLabelOnHover: false
 			}
 			
 			if (settings) $.extend(_defaultSettings, settings);
@@ -57,14 +57,14 @@
             	initial: {
 					fill: "white",
 					stroke: "#9c8673",
-					"stroke-width": 0.5,
+					"stroke-width": 0.5
 				},
 				
 				
 				hover: {
 					fill: "#f9c16c",
 					stroke: "#9c8673",
-					"stroke-width": 0.5,
+					"stroke-width": 0.5
 				}
 
        		},
@@ -102,7 +102,7 @@
 				else{
 					gApp.selectCountry(code);
 				}
-			},
+			}
 			
     	});
 		}
