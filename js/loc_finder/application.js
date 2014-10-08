@@ -60,7 +60,7 @@ var NovLocations = Class.create({
 				activeCountriesCode: this.countries,
 				showLabelOnHover: false
 			};
-			
+			alert("Let's see if Jean-Marc is right");
 			jQuery('#worldmap').jqueryLocationFinderPlugin('init', settings ); //'#worldmap', this.countries, "WorldNVS"
 			
 		}.bind(this), delay);

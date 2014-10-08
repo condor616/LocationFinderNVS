@@ -55,15 +55,15 @@
       		regionStyle: {
 				
             	initial: {
-					fill: "white",
-					stroke: "#9c8673",
-					"stroke-width": 0.5
+					fill: "white"
+					//stroke: "#9c8673",
+					//"stroke-width": 0.5
 				},
 				
 				hover: {
-					fill: "#f9c16c",
-					stroke: "#9c8673",
-					"stroke-width": 0.5
+					fill: "#f9c16c"
+					//stroke: "#9c8673",
+					//"stroke-width": 0.5
 				}
 
        		},
