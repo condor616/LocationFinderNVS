@@ -8,7 +8,7 @@ The only difference is that it uses SVG instead of Flash for the map.
 Known issues: 
  - Google Maps: Getting the direction to a specific place is not working
  - Google Maps API v2 is used (we should migrate to v3, but the entire app needs to be re-developed)
- - IE9 compatibility issues for the JvectorMap … investigating
+ - IE9 compatibility issues for the JvectorMap … FIXED
 
 Please note:
  - The locations.js file is coming from an external provider. 
