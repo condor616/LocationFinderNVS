@@ -58,9 +58,8 @@ var NovLocations = Class.create({
 				countryList: this.countries,
 				mapName: "WorldNVS",
 				activeCountriesCode: this.countries,
-				showLabelOnHover: false
+				showLabelOnHover: true
 			};
-			alert("Let's see if Jean-Marc is right");
 			jQuery('#worldmap').jqueryLocationFinderPlugin('init', settings ); //'#worldmap', this.countries, "WorldNVS"
 			
 		}.bind(this), delay);
@@ -197,7 +196,7 @@ var NovLocations = Class.create({
 				countryList: this.countries,
 				mapName: "WorldNVS",
 				activeCountriesCode: this.countries,
-				showLabelOnHover: false
+				showLabelOnHover: true
 				
 			};
 			

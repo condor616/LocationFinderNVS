@@ -69,7 +69,8 @@
        		},
 			
 			onRegionOver: function(e, code) {
-				if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+				//if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+				if(!fillData.hasOwnProperty(code)){
 					//NOT FOUND
 					e.preventDefault();
 					return;
@@ -85,7 +86,8 @@
 			
 			onRegionLabelShow: function(e, el, code){
 				if (_defaultSettings.showLabelOnHover){
-					if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+					//if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+					if(!fillData.hasOwnProperty(code)){
 						e.preventDefault();	
 						return;
 					} 		
@@ -96,12 +98,14 @@
   		    },
 			 
 			onRegionClick: function(e,code){ 
-				if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+				//if ($.inArray(code, _defaultSettings.activeCountriesCode) < 0){
+				if(!fillData.hasOwnProperty(code)){
 					//NOT FOUND
 					e.preventDefault();
-					return ;
+					return false;
 				}
 				else{
+					$('.jvectormap-label').hide();
 					gApp.selectCountry(code);
 				}
 			}
